@@ -1,8 +1,8 @@
 import * as React from "react";
-import MaskInput from "react-text-mask";
+import MaskedInput from "react-text-mask";
 
 export default function Mac() {
-  return <MaskInput guide={false} mask={mask} pipe={pipe} />;
+  return <MaskedInput guide={false} mask={mask} pipe={pipe} showMask />;
 }
 const mask = () => {
   return [
